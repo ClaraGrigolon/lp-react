@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 10vh;
+    padding: 20px;
+    background: #121212;
+    background-image: url('../assets/valorant-logo.png');
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position-y: center;
+    background-position-x: 4%;
+    color: #fff;
+}
+.header nav ul{
+    list-style: none;
+    float: right;
+    width: 28%;
+}
+.header nav ul li{
+    margin: 0 10px;
+    display: inline;
+}
+.header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.header nav ul li a:hover{
+    color: #ff4655;
+}
